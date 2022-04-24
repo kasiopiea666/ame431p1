@@ -4,7 +4,7 @@
 #SBATCH --mail-type=END,FAIL
 #SBATCH -e %j.err
 #SBATCH -o %j.out
-#SBATCH --mail-user=USERNAME@email.arizona.edu
+#SBATCH --mail-user=jwgerson@email.arizona.edu
 #SBATCH --nodes=1
 #SBATCH --ntasks=4
 #SBATCH --mem=8gb
